@@ -1,0 +1,7 @@
+✅ Prerequisites
+Python 3.8+
+
+Git installed
+
+An IDE (e.g., VSCode or PyCharm) or terminal access
+
