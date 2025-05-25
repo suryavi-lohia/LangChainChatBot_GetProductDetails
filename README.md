@@ -1,6 +1,5 @@
 
-Step 1
-Create environment - .env file
+Step 1- Create environment - .env file
     Keep you secret keys inside .env and format should be:
 
     OPENAI_API_KEY=your_openai_key
@@ -8,11 +7,10 @@ Create environment - .env file
     LANGCHAIN_API_KEY=your_langchain_key
     LANGCHAIN_PROJECT=your_project_name
 
-Step 2
-Requiremts : there are 2 ways to install
-
-step 1 - pip install -r requirements.txt
-step 2-  install the libraries using "pip install lib" 
+Step 2- Requiremts : there are 2 ways to install
+  
+    1- pip install -r requirements.txt
+    2- install the libraries using "pip install lib" 
             streamlit
             langchain
             langchain-openai
@@ -21,22 +19,32 @@ step 2-  install the libraries using "pip install lib"
             eg - pip install streamlit
 
 Step 3 - To run the code
+
 📦 1. Clone or Set Up Your Project
-        >mkdir langchain-chatbot
-        >cd langchain-chatbot
+
+        mkdir langchain-chatbot
+        cd langchain-chatbot
+
     2- Create a .env file: refer step no 1
 🛠  3. Set Up Python Environment
+
         Create a virtual environment:
-            >python -m venv venv
-            >source venv/bin/activate  # Linux/MAc
-            >venv\Scripts\activate # On Windows use: 
+
+        python -m venv venv
+        source venv/bin/activate  # Linux/MAc
+        venv\Scripts\activate # On Windows use: 
+
         Install dependencies: refer step 2
-            >pip install -r requirements.txt
+
+            pip install -r requirements.txt
+
         If you don’t have a requirements.txt yet, run this to generate one:
-            >pip install streamlit langchain langchain-openai pydantic python-dotenv
-            >pip freeze > requirements.txt
+
+            pip install streamlit langchain langchain-openai pydantic python-dotenv
+            pip freeze > requirements.txt
+
 🧪 4. Run the Streamlit App
-        >streamlit run main.py
+        streamlit run main.py
         Streamlit will open in your browser at http://localhost:8501.
 
 🧵 5. How It Works
